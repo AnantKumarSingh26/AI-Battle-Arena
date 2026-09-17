@@ -2,6 +2,7 @@ import express from "express";
 import runGraph from "./ai/graph.ai.js";
 
 const app = express();
+app.use(express.json())
 
 app.get('/', async (req, res) => {
     res.status(200).send('Resource Successfully Created!')
