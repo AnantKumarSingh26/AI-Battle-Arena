@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SideBar from './sidebar'
 import PromptInput from "./promptInput";
 import Sidebar from "./sidebar";
@@ -18,7 +18,7 @@ const Arena = () => {
         if (battleData.judge.solution_1_score > battleData.judge.solution_2_score) winner = "AI Response 1";
         else if (battleData.judge.solution_2_score > battleData.judge.solution_2_score) winner = "AI Response 2"
     }
-console.log("Check Function:", handleStartBattle)
+// console.log("Check Function:", handleStartBattle)
     return (
         <div className="flex h-screen bg-gray-800 text-gray-100 font-sans">
             {/* Left Sidebar  */}

@@ -1,9 +1,15 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
+import Arena from "../views/arena";
 
 
 export const router = createBrowserRouter([
     {
-        path:'/graph',
-        element:    <h2>Graph Page</h2>
+        path: '/',
+        element: <Navigate to="/graph" replace />
+    },
+
+    {
+        path: '/graph',
+        element: <Arena/>
     }
 ])

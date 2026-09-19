@@ -15,16 +15,16 @@ const Sidebar = ({onNewChat}) => {
             {/* bottom section */}
             <div className="mt-auto flex flex-col gap-4 pb-4">
                 <a
-                    href="" 
+                    href="https://github.com/AnantKumarSingh26/AI-Battle-Arena.git" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2 justify-center">
                     <span>🔗</span> GitHub Repo
                 </a>
                 <a
-                    href="https://linkedin.com/in/your-profile" 
+                    href="https://www.linkedin.com/in/anantkumarsingh-code" 
                     target="_blank"
-                    rel="noopener noreferrer"
+                    // rel="noopener noreferrer"
                     className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2 justify-center"
                 >
                     <span>🔗</span> LinkedIn Profile
