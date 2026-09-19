@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sidebar = (onNewChat) => {
+const Sidebar = ({onNewChat}) => {
     return (
         <aside className="w-64 h-screen bg-gray-900 text-white flex flex-col p-4 border-r border-gray-700 ">
             {/* Top Section */}

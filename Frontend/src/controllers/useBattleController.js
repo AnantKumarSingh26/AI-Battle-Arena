@@ -6,7 +6,9 @@ export const useBattleController = () => {
     const [errar, setErrar] = useState(null)
 
     const handleStartBattle = async (question) => {
-
+        setBattleData(null);
+        setErrar(null);
+        setIsLoading(true)
         try {
             setTimeout(() => {
                 const dummyResponse = {
